@@ -1,1 +1,37 @@
+h1, h2, h3, h4, h5, h6{
+    padding-top: 1.5em;
+    font-family: Arial, sans-serif;
+}
 
+h1{
+    font-size: 32px;
+}
+
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img{
+    float: right; /* Выравнивание по правому краю  */ 
+    padding: 0 0 0 3em; 
+}
+
+.img figcaption{
+    font-style: italic;
+}
+
+caption{
+    font-style: italic;
+    caption-side: bottom;
+}
+.centr{
+    width: 90%;
+    margin-left: 40px;
+
+}
+
+table, td, th{
+    border: 1px solid black;
+}
