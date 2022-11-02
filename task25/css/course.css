@@ -1,0 +1,49 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-size: 90%;
+    font-family: sans-serif;
+    background: url(../img/finish.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.cup-standings {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 30px;
+    overflow: hidden;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+h1 {
+    margin: 0;
+    padding: 12px 15px;
+    font-weight: 400;
+    font-size: 1em;
+    color: #fff;
+    background: #08c;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: rgba(255,255,255,.95);
+}
+th {
+    font-weight: 400;
+    background: #f5f5f5;
+}
+em, th {
+    font-size: .7em;
+    color: #999;
+}
+td, th {
+    padding: 10px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+td:nth-child(1) {
+    width: 1%;
+    padding-right: 0;
+}
