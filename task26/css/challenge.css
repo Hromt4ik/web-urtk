@@ -1,0 +1,15 @@
+body {
+    width: 280px;
+    margin: 0;
+    font-family: "Arial",sans-serif;
+}
+table {
+    border-collapse: collapse;
+    width: 500px;
+}
+td, th {
+    border: 1px solid #b5b5b5;
+}
+body, td, th {
+    padding: 10px;
+}
