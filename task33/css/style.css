@@ -1,0 +1,27 @@
+body {
+    width: 550px;
+    margin: 0;
+    padding: 0 10px;
+  
+    font-family: "Arial", sans-serif;
+    font-size: 26px;
+  }
+
+  i{
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: bold;
+  }
+  
+  b{
+    font-weight: normal;
+    font-style: italic;
+  }
+  
+  del{
+    text-decoration: underline;
+  }
+  
+  ins{
+    text-decoration: line-through;
+  }
