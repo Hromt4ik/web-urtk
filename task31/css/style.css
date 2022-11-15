@@ -1,0 +1,54 @@
+body {
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+
+    
+}
+
+img{
+    border-radius: 50%;
+}
+
+.person-info {
+    float: right; 
+    width: 50%;
+}
+
+.info{
+    width: 45%;
+    margin: auto;
+}
+
+header {
+    color: #ffffff;
+
+    background-image: url("../img/bg-partnership.svg");
+    background-color: #4a87fa;
+}
+
+.status-skill-background {
+    text-align: center;
+    background-color: #cccccc;
+    color: white;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-top: 3px;
+}
+
+.status-skill-better  {
+    background-color: #47bb52;
+    width: 60%;
+    padding: 5px;
+}
+
+.status-skill-good {
+    background-color: #4470c4;
+    width: 20%;
+    padding: 5px;
+}
+
+.status-skill-bad {
+    background-color: #4470c4;
+    width: 10%;
+    padding: 5px;
+}
