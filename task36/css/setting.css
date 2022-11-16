@@ -1,0 +1,17 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 520px;
+    min-height: 270px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: "Arial",sans-serif;
+    color: #fff;
+    background-color: #3a78a1;
+    background-image: url(../img/grid.png);
+    background-repeat: repeat;
+    background-position: -80px -80px;
+}

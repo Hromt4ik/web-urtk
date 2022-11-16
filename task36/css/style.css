@@ -1,0 +1,45 @@
+/* Базовые стили, изменять не нужно */
+.column {
+  margin-bottom: 20px;
+  margin-right: 16px;
+  padding: 10px;
+
+  background-color: rgba(0, 255, 255, 0.2);
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.cell {
+  padding: 5px 9px;
+
+  background-color: rgba(0, 255, 255, 0.2);
+  border: 2px solid white;
+}
+
+/* Cтили, которые нужно изменять */
+.column {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top;
+  /* float: left;
+  display: flex; */
+}
+
+.table {
+  display: table;
+}
+
+.row {
+  display: table-row;
+}
+
+.cell {
+  display: table-cell;
+  width: 100px;
+}
+
+.col-3{
+  display: none;
+}
