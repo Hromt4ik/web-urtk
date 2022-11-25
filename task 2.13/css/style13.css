@@ -3,6 +3,6 @@ ul:only-of-type{
     padding: 10px;
 }
 
-p:only-of-type{
+.paper p:only-of-type{
     color: #339966;
 }
