@@ -1,0 +1,9 @@
+body {
+    width: 1440px;
+    margin: auto;
+    font-family: "Arial", sans-serif;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
