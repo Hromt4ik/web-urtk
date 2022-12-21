@@ -269,14 +269,20 @@ a {
     max-height: 426px;
 }
 
+.email-sending-section{
+    background-color: #F3F3F7;
+    height: 218px;
+    padding-top: 94px;
+}
+
 .email-label {
     max-height: 80px;
+    margin-bottom: 30px;
 }
 
 .email-sending{
-    height: 124px;
+    max-height: 124px;
     max-width: 798px;
-    margin-top: 100px;
     margin-left: 198px;
     font-weight: 400;
     font-size: 30px;
