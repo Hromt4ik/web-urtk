@@ -276,8 +276,11 @@ a {
 }
 
 .email-label {
-    max-height: 80px;
+    height: 44px;
     margin-bottom: 30px;
+}
+.old-buildings{
+    margin-bottom: 100px;
 }
 
 .email-sending{
@@ -292,7 +295,6 @@ a {
     flex-wrap: wrap;
     align-items: stretch;
     text-align: center;
-    
 
     color: #333333;
 }
