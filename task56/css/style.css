@@ -53,10 +53,10 @@ a {
     margin: 0;
 }
 
-.header-nav-list-item:hover{
+.header-nav-list-item:hover
+{
     border-bottom: 1px solid #D90000;
 }
-
 .header-nav-list-item {
     position: relative;
     padding-bottom: 4px;
@@ -220,7 +220,7 @@ a {
     color: #000000;
 }
 
-.modern-header:hover {
+.modern-header:hover, .old-header:hover{
     border-bottom: 1px solid #D90000;
 }
 
@@ -271,8 +271,11 @@ a {
 
 .email-sending-section{
     background-color: #F3F3F7;
-    height: 218px;
-    padding-top: 94px;
+    padding-top: 93px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    height: 312px;
 }
 
 .email-label {
@@ -286,7 +289,6 @@ a {
 .email-sending{
     max-height: 124px;
     max-width: 798px;
-    margin-left: 198px;
     font-weight: 400;
     font-size: 30px;
     line-height: 37px;
@@ -310,6 +312,7 @@ input[type="email"] {
     display: flex;
     align-items: center;
 
+    background-color: #F3F3F7;
     color: #9A9A9A;
     box-sizing: border-box;
     border: 2px solid #9A9A9A;
