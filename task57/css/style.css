@@ -184,6 +184,50 @@ li{
     margin-bottom: 69px;
 }
 
+.block-hover {
+    position: relative;
+}
+
+.block-hover:hover::after{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 46px;
+    content: "Перейти";
+    background-image: url(../img/z1.svg);
+    background-repeat: no-repeat;
+    background-position: 85% 50%;
+
+    position: absolute;
+    background-color: white;
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+.block:hover::after{
+    top: 76%;
+}
+
+.block-2:hover::after{
+    top: 76%;
+}
+
+.block-5:hover::after{
+    top: 76%;
+}
+
+.block-4:hover::after{
+    top: 83%; 
+}
+
+.block-3:hover::after{
+    top: 69%; 
+}
+
+
 .block-hover > a{
     color: #000000;
     transition: 0.25s linear;
