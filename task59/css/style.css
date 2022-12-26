@@ -1,0 +1,115 @@
+body{
+    min-width: 1235px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1205px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.main-header-nav{
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.main-header-list{
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.main-header-list{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.07em;
+    width: 554px;
+}
+
+.main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-item{
+    border: 2px solid #000000;
+}
+
+.icon-list{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icon-list-item{
+    margin-left: 19px;
+}
+
+.main-firs-line-header{
+    padding-top: 250px;
+    height: 968px;
+    background: 
+    url(../img/43357006_6108125272189_6996131095276158976_n\ копия.png) no-repeat 90% -50px;
+}
+
+.main-firs-line{
+    background: 
+    url(../img/Intersect.png) no-repeat 0 50%;
+    
+}
+
+h1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 82px;
+
+    color: #373737;
+    width: 540px;
+    margin-bottom: 60px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 212px;
+    height: 66px;
+}
+
+.main-firs-line{
+    margin-top: 0px;
+}
+
+.dark{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    /* identical to box height */
+
+    letter-spacing: 0.12em;
+
+    background-color: #373737;
+    color: #FFFFFF;
+}
