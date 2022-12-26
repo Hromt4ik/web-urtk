@@ -1,0 +1,38 @@
+body {
+    width: 500px;
+    padding: 0;
+  
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #000000;
+  }
+  
+  li {
+    padding: 5px;
+    margin: 10px;
+  }
+  
+  .large-font {
+    font-size: 20px;
+  }
+  
+  .dark-background{
+    background-color: #4470c4;
+  }
+  
+  .white-colored{
+    color: white;
+  }
+  
+  .bordered{
+    border: 2px solid #000000;
+  }
+  
+  .uppercase {
+    text-transform: uppercase;
+  }
+  
+  .border-rounded {
+    border-radius: 10px;
+  }
