@@ -1,38 +1,40 @@
 body {
     width: 500px;
     padding: 0;
-  
+    
     font-family: "Arial", sans-serif;
     font-size: 16px;
     line-height: 26px;
     color: #000000;
   }
   
-  li {
-    padding: 5px;
-    margin: 10px;
-  }
+
+
+li {
+  margin: 10px;
+}
   
-  .large-font {
-    font-size: 20px;
-  }
+.large-font {
+  font-size: 20px;
+}
   
-  .dark-background{
-    background-color: #4470c4;
-  }
+.uppercase {
+  text-transform: uppercase;
+}
   
-  .white-colored{
-    color: white;
-  }
+.bordered {
+  border: 2px solid #000000;
+  padding: 5px;
+}
   
-  .bordered{
-    border: 2px solid #000000;
-  }
+.white-colored {
+  color: white;
+}
   
-  .uppercase {
-    text-transform: uppercase;
-  }
+.dark-background {
+  background-color: #4470c4;
+}
   
-  .border-rounded {
-    border-radius: 10px;
-  }
+.border-rounded {
+  border-radius: 10px;
+}
